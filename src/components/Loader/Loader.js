@@ -7,7 +7,7 @@ const Loader = () => {
             <div className="absolute inset-0 bg-black opacity-20"></div>
             <div className="flex flex-col gap-[35px] w-[200px] md:w-[325px] justify-center relative z-10">
                 
-                <img src="/assets/images/Logo_Mined_Academy.png" alt="Logo Mined" className="hidden dark:block w-[200px] md:w-[325px]"/> {/*src={`${process.env.REACT_APP_URL_IMG}/Logo_Mined_Academy.png`}*/}
+                <img src="/assets/images/Logo_Mined_Academy.png" alt="Logo Mined 2" className="hidden dark:block w-[200px] md:w-[325px]"/> {/*src={`${process.env.REACT_APP_URL_IMG}/Logo_Mined_Academy.png`}*/}
                 <img src="/assets/images/logoAcademyNav.png" alt="Logo Mined" className="dark:hidden   w-[200px] md:w-[325px]"/>
                 
                 <div className="w-full h-[5px] bg-white dar:bg-gris-azulado-profundo rounded">

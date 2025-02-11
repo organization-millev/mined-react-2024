@@ -20,6 +20,7 @@ const CircularProgressBar = ({ size = 100, strokeWidth = 10, duration = 2 }) => 
   return (
     <div className="relative flex items-center justify-center font-sans">
       <svg
+        role="img"
         className="transform -rotate-90"
         width={size}
         height={size}

@@ -6,13 +6,7 @@ const AvatarGrid = ({ avatarIcon = [], onSubmitAvatar, idAvatar,selected, currec
     const [selectedAvatarIndex, setSelectedAvatarIndex] = useState(null);
     const [selectedButton, setSelectedButton] = useState('none');
     
-    //
-    /*useEffect(() => {
-        setAvatars(avatarIcon);
-        
-        
-    }, [avatarIcon]);*/
-    
+
     useEffect(() => {
         setAvatars(avatarIcon);
         const initialIndex = avatarIcon.findIndex(avatar => avatar.idAvatar == currectAvatarId);
@@ -26,30 +20,12 @@ const AvatarGrid = ({ avatarIcon = [], onSubmitAvatar, idAvatar,selected, currec
         }
     }, [avatarIcon, currectAvatarId]);
 
-    /*const handleAvatarClick = (index) => {
-        if (avatars[index].estado !== 'inactivo') {
-            if (selectedAvatarIndex === index) {
-                setSelectedAvatarIndex(null);
-                onSubmitAvatar(null);
-            } else {
-                setSelectedAvatarIndex(index);
-                
-                onSubmitAvatar(avatars[index].idAvatar);
-            }
-        }
-    };
-    
-    const handleNoAvatarClick = () => {
-        setSelectedAvatarIndex(null);
-        setSelectedButton('none');
-        onSubmitAvatar(null);
-    };*/
+   
     
     const handleAvatarClick = (index) => {
         if (avatars[index].estado !== 'inactivo') {
             setSelectedAvatarIndex(index);
             setSelectedButton(null);
-            //
             onSubmitAvatar(avatars[index].idAvatar); 
         }
     };
@@ -64,8 +40,7 @@ const AvatarGrid = ({ avatarIcon = [], onSubmitAvatar, idAvatar,selected, currec
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-[10px] p-2">
             <div id="no-avatar-option" className={`relative bg-plata-suave w-32 h-32 rounded-[20px] overflow-hidden cursor-pointer ${selectedButton === 'none' ? 'border-[5px] border-gris-oscuro' : ''}`}
                 onClick={() => {
-                    
-                    handleNoAvatarClick(); // El id 0 se envía aquí
+                    handleNoAvatarClick(); 
                 }} 
             >
                 <div className="absolute inset-0 flex items-center justify-center">

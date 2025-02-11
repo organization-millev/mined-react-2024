@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./ClaseItem.css"; // Importa tu archivo CSS aquí
 import Reloj from '../../iconos/nest_clock_farsight_analog.js';
@@ -20,21 +21,7 @@ const ClaseItem = ({ habilitado , tiempoClase , nombreClase , descripcionClase,c
     goToAcademyCursoClase(programName, courseName, encodeURIComponent(formatForURL(nombreClase)) , { idClass });
   };
   
-  /*const formatDuration = (duration) => {
-    const [hours, minutes, seconds] = duration.split(':').map(Number);
-    
-    let formattedDuration = '';
-    
-    if (hours > 0) {
-        formattedDuration += `${hours} ${hours > 1 ? 'horas' : 'hora'} `;
-    }
-    
-    if (minutes > 0) {
-        formattedDuration += `${minutes} ${minutes > 1 ? 'min' : 'min'}`;
-    }
-    
-    return formattedDuration.trim();
-};*/
+ 
 
 
     
