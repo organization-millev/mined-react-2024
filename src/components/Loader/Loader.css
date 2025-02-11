@@ -1,0 +1,21 @@
+@keyframes progress-animation {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+.progress-bar {
+    width: 0;
+    animation: progress-animation 3s linear infinite;
+}
+
+.loadingScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para cubrir el contenido */
+  z-index: 1000; /* Asegura que se superpone a todo lo demás */
+}
+
+

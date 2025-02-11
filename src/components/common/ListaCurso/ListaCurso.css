@@ -1,0 +1,16 @@
+.custom-divider {
+  height: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-divider::before {
+  content: "";
+  flex: 1;
+  height: 9px;
+  background-color: var(--color-gris-oscuro);
+}
+
+.last-divider {
+  border-bottom: 1px solid var(--color-gris-claro) !important;
+}

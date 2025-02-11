@@ -1,0 +1,44 @@
+ .slick-prev, .slick-next {
+      display: none !important;
+
+ }
+ 
+@media (min-width: 768px) {
+ .carousel-educadores .slick-slide{
+    width: auto !important;
+    margin-right: 10px;
+}
+.carousel-educadores .slick-track{
+    height: 340px;
+    overflow: hidden;
+}
+.carousel-educadores .slick-list .slick-slide {
+    min-height: 220px;
+}
+
+}
+@media (max-width: 767px) {
+ .carousel-educadores .slick-track{
+    height: 200px;
+    overflow: hidden;
+}
+.carousel-educadores .slick-slide{
+    width: 310px !important;
+}
+}
+
+/*@media (min-width:1700px){
+    .carousel-educadores .slick-slider .slick-track{
+        width:auto !important;
+    }
+}*/
+
+@media (width: 768px) {
+.carousel-educadores .slick-slider {
+    height: 180px;    
+    
+}
+
+}
+
+

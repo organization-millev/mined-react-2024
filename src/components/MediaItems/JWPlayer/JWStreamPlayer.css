@@ -1,0 +1,19 @@
+.jw-embed-state-idle{
+    background-origin: border-box !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.jw-live-placeholder.jw-embed-text-placeholder{
+    background-color: transparent !important
+} 
+
+.jwplayer-embed-container{
+width:500px;    
+height: 280px;
+display: flex;
+}
+
+.jwplayer-embed-container iframe{
+    width: 100%;
+}

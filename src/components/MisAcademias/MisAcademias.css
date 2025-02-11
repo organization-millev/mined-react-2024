@@ -1,0 +1,24 @@
+.desplegar-academia-estilo {
+    display: flex !important; 
+    align-items:center;
+    width: 95% !important;
+}
+
+.contenedor-carousel-misacademias {
+    max-width: 68.4em;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1040px) {
+    .contenedor-carousel-misacademias {
+        max-width: 48.4em;
+    }
+}
+
+/*
+@media (min-width: 360px) and  (max-width: 375px) {
+    .card-cursov2-estilo {
+        width: 290px !important;
+    }
+}
+*/

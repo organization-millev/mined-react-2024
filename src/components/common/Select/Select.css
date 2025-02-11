@@ -1,0 +1,7 @@
+select {
+  /* Eliminando la flecha predeterminada */
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+}

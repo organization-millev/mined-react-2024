@@ -1,0 +1,17 @@
+/*.item-modules-estilos {
+    margin-top: 0px !important;
+}*/
+
+.item-modules-estilos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-modules-estilos .flex-1 {
+  min-width: 0; /* Asegura que el contenido no exceda el espacio disponible */
+}
+
+.item-modules-estilos .flex-row {
+  white-space: nowrap; /* Previene el salto de línea en tiempoClase */
+}

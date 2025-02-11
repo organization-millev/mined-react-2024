@@ -1,0 +1,15 @@
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+     .curso-video .btn-curso-clase-anterior {
+        padding: 5px 10px 5px 4px !important;
+        height: 36px;
+    }
+    
+     .curso-video .btn-curso-clase-siguiente {
+        padding: 5px 4px 5px 10px !important;
+        height: 36px;
+    }
+    
+ 
+}

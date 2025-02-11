@@ -1,0 +1,37 @@
+/*@media (min-width: 1280px) and  (max-width: 1388px) {
+ .card-curso-estilo {
+     width: 325px;
+ }
+ 
+}
+
+
+
+@media (min-width: 1024px) and  (max-width: 1279px) {
+ .card-curso-estilo {
+     width: 260px;
+ }
+ 
+}
+*/
+
+
+
+
+
+@media (min-width: 768px) and  (max-width: 1279px) {
+ .card-watching {
+     max-width: 16.5rem !important;
+ }
+ 
+}
+
+
+
+
+@media (min-width: 1280px) and  (max-width: 1400px) {
+ .card-watching {
+     width: 330px !important;
+ }
+ 
+}

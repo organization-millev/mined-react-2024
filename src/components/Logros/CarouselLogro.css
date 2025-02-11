@@ -1,0 +1,109 @@
+/*
+
+
+*/
+.carousel-logros .slick-initialized .slick-slide {
+    display: block !important;
+    
+    
+}
+
+.carousel-mobile {
+    
+}
+
+
+@media (max-width: 320px) {
+  .carousel-mobile  {
+    max-width: 265px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  .carousel-mobile  {
+   max-width: 290px;
+   margin: auto;
+  }
+}
+
+
+@media (min-width: 376px) and (max-width: 425px) {
+  .carousel-mobile  {
+   max-width: 300px;
+   margin: auto;
+  }
+}
+
+
+@media (min-width: 426px) and (max-width: 500px) {
+  .carousel-mobile  {
+   max-width: 350px;
+   margin: auto;
+  }
+}
+
+
+@media (min-width: 501px) and (max-width: 600px) {
+  .carousel-mobile  {
+   max-width: 415px;
+   margin: auto;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 767px) {
+  .carousel-mobile  {
+   max-width: 515px;
+   margin: auto;
+  }
+}
+
+
+
+.tema-claro-dots .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+
+.tema-claro-dots .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.tema-oscuro-dots .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: white;
+}
+
+
+.tema-oscuro-dots .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

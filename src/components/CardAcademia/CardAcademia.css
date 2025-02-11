@@ -1,0 +1,10 @@
+@media (min-width: 1280px) and  (max-width: 1350px) {
+ .card-academia {
+     width: 190px;
+ }
+ 
+}
+
+.fondo-card-academia-deshabilitado {
+ background: linear-gradient(180.49deg, rgb(255 255 255 / 51%) 0.43%, rgb(44 44 67 / 50%) 122.96%);
+}

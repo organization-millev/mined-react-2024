@@ -1,0 +1,110 @@
+/* colors.css */
+:root {
+
+/*paleta neutral*/    
+  --color-plata-suave: #EDECEE;
+  --color-gris-claro: #CFCFD1;
+  --color-gris-medio: #BDBDBD;
+  --color-gris-oscuro: #808080;
+  --color-plata-pálido: #E4E3E8;
+  --color-púrpura-grisáceo: #656472;
+  --color-gris-carbón: #403E4B;
+  --color-azul-oscuro-grisáceo: #353340;
+  --color-gris-azulado-profundo: #292735;
+  --color-gris-valoracion: #C1C7CD;
+  --color-gris-progressBar: #3D3D3D36;
+  --color-gris-favorito:#D9D9D9;
+  --color-gris-herramientas:#F5F5F5;
+  --color-gris-grafito:#0D0D14;
+  --color-gris-grafito-claro:#E4E4E6;
+  --color-contenedor-plomo:#D5D5D7;
+  --color-wsp:#5fd568;
+
+ 
+  
+  
+  /*modo oscuro*/
+  --color-dark:#15151F;
+  --color-dark2:#292735; 
+  --color-dark-text:#9A9AA2;
+  --color-dark2-text:#B2B2B8;
+
+/*basicos*/
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --color-verde-esmeralda: #01B574;
+  --color-naranja-cremoso: #FFB547;
+  --color-naranja-cremoso-claro: #FFB54736;
+  --color-rojo-coral: #FF5757;
+  --color-rojo-notificacion: #CF1D1D;
+
+/*academy*/
+  --color-azul-pálido: #BAD7ED;
+  --color-azul-celeste: #75AFDB;
+  --color-azul-intenso: #3486C5;
+  --color-azul-marino: #235983;
+  --color-azul-noche: #112D42;
+  --color-marron-grisaceo: #4A4A4A;
+  --color-gris-intenso: #9C9C9C;
+  --color-verde-claro: #2AA75C;
+  --color-gris-divisor: #C3C3C3;
+  
+  /*tv*/
+  --color-rosa-pálido: #EDB8B8;
+  --color-rojo-suave: #DC7072;
+  --color-rojo-intenso: #C33032;
+  --color-rojo-oscuro: #822021;
+  --color-marrón-rojizo: #411011;
+
+
+/*ACADEMIAS*/
+
+/*trading pro*/
+  --color-azul-medio: #306795;
+  --color-azul-brillante: #21D9FF;
+  --color-verde-azulado: #2AA77B;
+  --color-degradado-azul: linear-gradient(90.0deg, rgba(42, 167, 123, 1.0) 0%, rgba(51, 134, 196, 1.0) 99%);
+  --color-naranja-oscuro: #E47E2B;
+
+
+/*e-commerce*/
+  --color-carmesí: #9C1800;
+  --color-rosa-coral: #FF6A69;
+  --gradiente-violeta-rojizo: linear-gradient(180.0deg, rgba(156, 24, 0, 1.0) 0%, rgba(76, 37, 155, 1.0) 100%);
+
+/*wem*/
+  --color-fucsia-intenso: #E63A5C;
+  --color-rosa-palido-suave: #F2A9B9;
+
+/*sales mastery*/
+  --color-verde-agua: #00886E;
+  --color-turquesa-claro: #00EEC1;
+
+/*clf*/
+  --color-ocre: #AB7605;
+  --color-amarillo-suave: #FFDA6B;
+
+/*teach and sell*/
+  --color-naranja-rojizo: #A14E00;
+  --color-naranja-intenso: #EE7700;
+
+/*minedfit*/
+  --color-verde-lima: #CDF03C;
+
+
+/*FWP*/
+  --color-verde-lima-oscuro: #9CC31C;
+  --color-naranja-vivo: #EE783E;
+  --color-púrpura-oscuro: #662570;
+  --color-blanco-nieve: #F5F4F4;
+  --color-gris-pálido: #E0DBD5;
+  --color-gris-antracita: #585857;
+  --color-negro-carbón: #1C1D1C;
+  --color-rosa-fucsia: #B64E94;
+  
+
+  
+
+  
+
+}

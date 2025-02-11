@@ -1,0 +1,8 @@
+/*
+@media (min-width: 1280px) and (max-width: 1300px) {
+   .seccion-descarga-columnas {
+               grid-template-columns: repeat(5, minmax(0, 1fr));
+   }
+ 
+}
+*/

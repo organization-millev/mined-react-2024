@@ -1,0 +1,332 @@
+// src/locales/en.js
+const es = {
+    
+  //BOTONES
+  minedTV: "Live",
+  minedEnVivo:"Live",
+  minedAcademy:"Mined Academy",
+  enviarbtn:"Enviar",
+  btnDescargar:"Descargar",
+  descargando:"Cargando",
+  btnDescargarTodo:"Descargar todo",
+  botonDescargarTodos:"Descargar todos",
+  verTodas:"Ver todas",
+  puntos:"pts",
+  btnAgregarCarrito:"Agregar al carrito",
+  btnComprarAhora:"Comprar Ahora",
+  btnInciarSesion:"Iniciar sesión",
+  btnCerrarSesion:"Cerrar sesión",
+  ayuda:"Ayuda",
+  traduccionEspañol:"Español",
+  traduccionIngles:"Inglés",
+  seleccionarArchivo:"Seleccionar archivo",
+  seleccionar:"Seleccionar",
+  subeTuImagen:"Sube tu imagen",
+  subirArchivos:"Subir archivo",
+  btnSiguienteClase:"Siguiente clase",
+  btnAnteriorClase:"Clase previa",
+  btnAgendar:"Agendar",
+  btnRegistrarse:"Registrarse",
+  btnGuardarCambios:"Guardar cambios",
+  btnPagar:"Pagar",
+  btnSaberMas:"Saber más",
+  btnIngresar:"Ingresar",
+  btnCambiarCarrito:"Cambiar Carrito",
+  btnEliminarCarrito:"Eliminar del Carrito",
+  btnIrCarrito:"Ir a carrito",
+  btnDragAndDrop:"Selecciona tu archivo",
+  btnAtras:"Atrás",
+  btnSig:"Sig",
+  btnSave:"Guardar",
+  titleEditar:"Editar lista de videos",
+  crearLista:"Crear lista de videos",
+  
+  //LOGIN 
+  correoElectronico:"Usuario",
+  ingresaCorreo:"Ingresa tu usuario",  
+  contraseña:"Contraseña",
+  ingresaContraseña:"Ingresa tu contraseña",
+
+  
+  //HOME-TV
+   saludoBienvenida: "Hola",
+   ahoraMinedTV: "Ahora en vivo",
+   nuestrasAcademias: "Nuestras academias",
+   nuestrasHerramientas: "Nuestras herramientas",
+   continuaMinedAcademy:"Continúa en Mined Academy",
+   inactividadTitle:"Inactividad detectada",
+   inactividadSubTitle:"Has estado inactivo por un tiempo. ¿Quieres continuar?",
+  
+  //HOME-ACADEMY
+   continuarReproduciendo:"Continuar reproduciendo",
+   continúaAcademy:"Continúa reproduciendo",
+   
+  //ACADEMY-TV
+   descripcionAcademia:"Descripción de la academia",
+   listadoCurso: "Cursos",
+   herramientasAcademia:"Herramientas para esta academia",
+   nohayCursosDiscponibles: "No hay cursos disponibles",
+   tusAcademias:"Tus academias",
+   directorAcademia:"Director de la academia",
+   misAcademias:"Mis academias",
+   mensajeError:"No tienes acceso a este recurso",
+   director:"Director(es)",
+   //CALENDARIO 
+   miCalendario:"Mi Calendario",
+   enVivo:"En vivo",
+   ahora:"Ahora",
+   reloj:"reloj",
+   lunes:"Lunes",
+   martes:"Martes",
+   miercoles:"Miércoles",
+   jueves:"Jueves",
+   viernes:"Viernes",
+   sabado:"Sábado",
+   domingo:"Domingo",
+   hace:"Hace",
+   horas:"horas",
+   días: "día(s)",
+   programacion:"Programación",
+   clases:"clases",
+   
+   
+   //CARRITO COMPRAS
+   tuCarrito:"Tu carrito",
+   verTodosLosProductos:"Aquí puedes ver todos los productos que haz agregado a tu carrito.",
+   carritoVacio:"No tienes productos agregados al carrito",
+   cuandoAgreguesApareceraAqui:"Cuando hayas agregado un producto, aparecerá aquí.",
+   continuarCompra:"Continuar compra",
+   total:"Total:",
+   noHayResultados:"No se encontraron resultados",
+   finalizaCompra:"Finaliza tu compra",
+   adquiereHerramienta:"Adquiere esta herramienta y lleva tu trading al siguiente nivel",
+   metodoPago:"Escoge el método de pago",
+   modificar:"Modificar",
+   resumenCompra:"Resumen de tu compra",
+   tiempoValidez:"Tiempo de validez",
+   realizadoPagoProceso:"Una vez realizado el pago, debe hacer click en el botón de ya realice el pago",
+   pagoRealizado:"Ya realice el pago",
+   nombreHerramienta:"Herramienta para ",
+   productoNoDisponible:"Producto no disponible",
+   
+   //PASARELA
+   qrCargando:"Cargando qr",
+   sitioProcesador:"Ir a sitio procesador",
+   cargando:"cargando",
+   cargandoPago:"Cargando",
+   
+   //CURSO-TV
+   descripcionCurso:"Descripción del curso",
+   complementaEducacion:"Complementa tu educación en",
+   complementa:"Complementa tu",
+   educacion:"educación en",
+   cursosRecomendados:"Cursos recomendados",
+   valoracionesTitulo:"Valoraciones del educador",
+   dejaValoracion:"Déjanos tu valoración",
+   dejaUnaValoracion:"Deja una valoracion",
+   precioEspecial:"PRECIO ESPECIAL",
+   cursosGuardados:"Cursos guardados",
+   misGuardados:"Mis guardados",
+   miCarrito:"Mi carrito",
+   documentosCurso:"Documentos del curso",
+   archivosClase:"Archivos de la clase",
+   
+   
+   
+   //PERFIL
+   miPerfil:"Mi perfil",
+   trader:"Trader",
+   codigo:"Código:",
+   paquetesActivos:"Paquetes activos:",
+   ultimosLogros:"Últimos logros",
+   perfilLogros:"Medallas ganadas",
+   siguienteNivel:"puntos",
+   misLogros:"Mis logros",
+   carouselEducadoresAcademy:"Educadores favoritos",
+   carouselEducadoresTV:"Tus educadores favoritos",
+   misHerramientas:"Mis herramientas",
+   diasrestantes:"Dias restantes",
+   dias:"Días",
+   editaPerfil:"Edita tu foto de perfil",
+   subirFotoElegirAvatar:"Puedes subir una foto de perfil o elegir uno de los avatares disponibles",
+   editaEmblema:"Edita tu emblema",
+   editaTituloAvatar:"Puedes editar el título y tu avatar por cualquier otro que hayas conseguido.",
+   titulosDisponibles:"Títulos disponibles",
+   eligeTuAvatar:"Elige tu avatar",
+   archivoSeleccionado:"Foto seleccionada",
+   textoDesbloquea:"Desbloquea el ",
+   textoDesbloquea2:" para conseguir más avatars!",
+   ultimosCursos:"Últimos cursos",
+   estudiante:"Estudiante",
+   
+   
+   //ACADEMIA NO COMPRADA 
+   herramientaParaAcademia:"Herramientas para esta academia",
+   academiasRecomendadas:"Academias recomendadas",
+   masSobre:"Más sobre",
+   cursosIncluidosAcademia:"Cursos incluidos en esta Academia",
+   
+   
+   
+   
+   //MISC ACADEMIAS 
+   misCertificados:" Mis constancias",
+   academia:"Academia",
+   tiempoDuracion: "Tiempo",
+   progreso:"Progreso",
+   todosLosLogros:"Todos los logros",
+   horasVisualizacion:"Horas visualizadas promedio",
+   horasUltimoMes:"Horas visualizadas último mes",
+   tuCertificado:"Constancias",
+   logrosMedallas:"Logros / Medallas",
+   tusMedallas:"Tus medallas",
+   ocultarCursos:"Ocultar cursos",
+   verCursos:"Ver cursos",
+   cursoCarousel:"Cursos",
+   clasesTomadas:"Sesiones tomadas",
+   clasesRestantes:"Sesiones restantes",
+   logrosDesbloqueados:"Últimos logros desbloqueados",
+   onlyLogros:"Logros",
+   
+   
+   
+   //MIS CERTIFICADOS
+   certificados:"Constancias",
+   conseguido:"Conseguidos",
+   porConseguir:"Por conseguir",
+   desbloqueaste:"Desbloquesate:",
+   generarCertificado:"Generar constancia",
+   mensajeModalCertificado:"Ahora puedes ir a ver tu constancia",
+   continuar:"Continuar",
+   
+   
+   //NOTIFICACIONES
+   estasAlDia:"Estas al día, no tienes",
+   notificaciones:"notificaciones",
+   marcarLeido:"Marcar como leído",
+   marcarTodoLeido:"Marcar como leído",
+   archivarTodo:"Archivar todo",
+   todas:"Todas",
+   archivadas:"Archivadas",
+   bandejaEntrada:"Bandeja de entrada",
+   
+   //STREAMING
+   listaReproduccion:"Listas de reproducción",
+   listaContenido:"Lista de contenido",
+   ordenarPor:"Ordenar por",
+   dificultad:"Dificultad",
+   educador:"Educador",
+   educadores:"Educador/a",
+   dejaTuOpinion:"Déjanos tu opinión sobre el educador",
+   tienesDuda:"¿Tienes dudas? El educador la contestará",
+   dejaUnaConsulta:"Deja una consulta",
+   escribeTuConsulta:"Escribe tu consulta",
+   dejaTuPregunta:"Deja tu pregunta",
+   pregunta:"pregunta",
+   respuesta:"respuesta",
+   reseñas:"Reseñas",
+   archivos:"Archivos",
+   crearLista:"Crear listas",
+   editarLista:"Editar listas",
+   miraTodasReseñas:"Mira todas las reseñas",
+   documentosDisponibles:"No hay documentos disponibles actualmente",
+   educadorFuncion:"Educador de ",
+   segundos:"segundo(s)",
+   minutos:"minuto(s)",
+   dias:"día(s)",
+   sesionSinFinalizar:"La sesión aún no ha terminado",  
+   reseñasUsuarios:"Reseñas de nuestros usuarios",
+   fechaAscendente:"Fecha ascendente",
+   fechaDescendente:"Fecha descendente",
+   sinNombre:"Sin Nombre",
+   responder:"Responder",
+   dejarespuesta:"Deja tu respuesta",
+   cancelar:"Cancelar",
+   nombreClase:"Nombre de la clase",
+   descripcionClase:"Descripción de la clase",
+   fecha:"Fecha",
+   listaReproduccion:"Lista de reproducción",
+   dificultadClase:"Dificultad de la clase",
+   archivosLimit:"El archivo no debe exceder 7MB.",
+   archivoNoPermitido:"Archivo No Permitido",
+
+
+
+   //CENTRO DE AYUDA 
+   necesitasAyuda:"¿Necesitas ayuda?",
+   tituloCentroAyuda:"Centro de ayuda",
+   buscar:"Buscar",
+   buscarNav:"Buscar",
+   reelsAyuda:"Reels de ayuda",
+   verMas:"Ver más",
+   verMenos:"Ver menos",
+   cuentanosTuProblema:"Cuéntanos tu problema y con gusto te contactaremos",
+   nombre:"Nombre",
+   apellido:"Apellido",
+   correo:"Email",
+   numTelefono:"Número de teléfono",
+   academiaComprada:"Academia comprada",
+   tipoConsulta:"Tipo de consulta",
+   texto:"Texto",
+   dejaMensaje:"Deja tu mensaje",
+   escribeConsulta:"Escriba aquí su consulta",
+   aceptarCondicion:" Acepto recibir email publicitario para estar al tanto de todas las novedades",
+   noSeEncontroBusqueda:"No se encontró una pregunta relacionada con",
+   
+   
+  //AVISO LEGAL
+  terminosCondiciones: 'MINED World es una compañía válidamente constituida y con personería jurídica real, dedicada a la prestación de servicios educativos virtuales, conforme se expresa en nuestros estatutos. Todos los materiales y/o contenidos expuestos en la página y aplicaciones web y móviles, se publican con fines exclusivamente educativos. No somos una empresa financiera, no somos un broker. Pedimos a toda nuestra comunidad y el público en general tener presente que MINED World es una academia privada y contamos con todos los documentos en regla para desarrollar nuestras actividades empresariales. Bajo ningún motivo pedimos dinero para invertirlo, no ofrecemos acceso a los mercados financieros, ni mucho menos prometemos cambiar un estatus económico de ninguna persona, en MINED World condenamos rotundamente cualquier tipo de esquema ponzi o negocio piramidal. Nuestra empresa cuenta con calidad acreditada y respaldo empresarial de las organizaciones más importantes de Latinoamérica, como la Cámara de Comercio de Lima (CCL), Sociedad Nacional de Industrias (SNI), Cámara Económica Digital de Uruguay (CEDU), Certificaciones ISO 9001 e ISO 37001, es decir, nuestra solvencia y credibilidad está certificada, además somos acreedores de múltiples premios nacionales e internacionales, como la Empresa Peruana del Año, MarCom Awards, Titan Business Awards, entre otros.',
+
+  //FOOTER
+  compañiaSeccion: "Compañía",
+  contactanosSeccion: "Servicios",
+  ayudaSeccion: "Ayuda",
+  
+  sobreMined: "Sobre MINED",
+  academias: "Academias",
+  herramientas: "Herramientas",
+  contactanos: "Contáctanos",
+  oficinaVirtual: "Oficina Virtual",
+  preguntasFrecuentes: "Preguntas frecuentes",
+  politicasPrivacidad: "Políticas de privacidad",
+  
+  disponibleEn: "Disponible en",
+  encuentranosEn: "Encuéntranos en",
+
+  
+  horas: "horas",
+  minutos: "min",
+  hora: "hora",
+  minutes: " Minutos",
+  
+  Aceptar: "Aceptar",
+  
+  //Modals
+  eliminarTitle:"Eliminarás este producto de tu carrito",
+  eliminarSubtitle:"¿Estás seguro que quieres continuar?",
+  eliminarCerrar:"Cerrar",
+  eliminarEliminar:"Eliminar",
+  
+  saleBannerSetSuccess:"Banner promocional activado con exito",
+  saleBannerdeactivatedSuccess:"Banner promocional desactivado",
+  saleBannerObtener:"Obtener",
+  saleBannerHabilitar:"Habilitar",
+  saleBannerDeshabilitar:"Deshabilitar",
+  saleBannerHerramienta:"Herramientas",
+  saleBannerPeriodo:"Periodos",
+  saleBannerTitulo:"Habilitar banner promocional",
+  saleBannerActivo: '<b>Banner activo</b>: {{name}} - {{description}} hasta: {{date}}',
+  cartMissingItems:"Debe seleccionar una categoria",
+
+  shopBannerTitleBad:"¡Algo salió mal!",
+  shopBannerTitlePending:"Se esta verificando tu compra",
+  shopBannerTitleAccepted:"Listo! Realizaste tu compra con éxito.",
+  shopBannerTitleComplete:"Listo! Realizaste tu compra con éxito.",
+  shopBannerMessageBad:"Lamentamos el inconveniente. Por favor, inténtalo de nuevo para completar tu compra y disfrutar de una mejor experiencia. ¡Gracias por tu paciencia!",
+  shopBannerMessagePending:"Estamos verificando tu compra. Si ya realizo el pago, puede salir de esta página",
+  shopBannerMessageAccepted:"Estamos procesando tu compra.  ¡Muchos éxitos! Serás redirigido a la pagina principal.",
+  shopBannerMessageComplete:"Hemos recibido tu pago correctamente  ¡Muchos éxitos! Ya puedes comenzar a usar tu producto."
+ 
+};
+
+export default es;

@@ -1,0 +1,13 @@
+.grafico-pastel-academias svg {
+    width: 160px  !important;
+    height: 160px !important;
+    
+    
+}
+
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .grafico-pastel-academias {
+        margin-left: 20px;
+    }
+}

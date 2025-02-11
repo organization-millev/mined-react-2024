@@ -1,0 +1,12 @@
+@media (min-width: 375px) and (max-width: 1024px) {
+    .estrellas-raiting{
+        gap: 8px; /* Aplica gap de 2px para pantallas entre 320px y 374px */
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .estrellas-raiting{
+        gap: 2px; /* Aplica gap de 2px para pantallas entre 320px y 374px */
+    }
+}
